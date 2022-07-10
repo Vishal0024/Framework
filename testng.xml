@@ -6,7 +6,7 @@
 	<listener class-name="com.vishal.listeners.MethodInterceptor"></listener>
 	<listener class-name="com.vishal.listeners.AnnotationTransformer"></listener>
 </listeners>
-  <test name="Test">
+  <test name="Test" thread-count="2" parallel="methods">
     <classes>
 	  <class name="com.vishal.tests.OrangeHrmTests"/>
     </classes>

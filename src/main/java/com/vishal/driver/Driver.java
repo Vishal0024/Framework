@@ -21,7 +21,7 @@ public final class Driver {
 				System.setProperty("webdriver.chrome.driver", FrameworkConstants.getChromedriverpath());
 				DriverManager.setDriver(new ChromeDriver());
 			}
-			else if
+			else
 			{
 				System.setProperty("webdriver.gecko.driver", FrameworkConstants.getGeckodriverpath());
 				DriverManager.setDriver(new FirefoxDriver());
